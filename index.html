@@ -435,16 +435,21 @@
           </ul>
         </div>
         <div class="footer-form">
-          <form>
-            <p class="text-form">Subscribe</p>
+          <p class="text-form">Subscribe</p>
+          <form class="text-form-block">
+            <label class="form-block-email">
             <input
               class="form-email"
               type="email"
               name="email"
-              placeholder="E-mail"
-            />
-            <button class="form-button" type="submit">Subscribe</button>
-          </form>
+              placeholder="    E-mail"
+            /></label>
+            <button class="form-button-subscribe" type="submit">Subscribe
+              <svg class="email-fly" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-latter"></use>
+              </svg>
+              </button>
+           </form>
         </div>
       </div>
     </footer>
@@ -541,7 +546,7 @@
           </div>
           <div class="review-checkbox">
             <input
-              class="review-input-checkbox"
+              class="review-input-checkbox visually-hidden"
               type="checkbox"
               id="checkbox-label"
               name="user_privasy"
@@ -550,11 +555,10 @@
             />
             <label class="checkbox-label" for="checkbox-label">
               <span class="review-form-checkbox">
-                <svg class="checkbox-icon" width="16" height="16" aria-label="checkmark icon">
-                  <use href="./images/icons.svg#icon-Property"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
+                <svg class="checkbox-icon" width="10" height="8" aria-label="checkmark icon">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg></span>
+                I accept the terms and conditions of the
               <a class="privasy-link">Privacy Policy</a>
             </label>
           </div>
