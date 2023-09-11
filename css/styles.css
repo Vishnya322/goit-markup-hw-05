@@ -620,7 +620,6 @@ color: var(--WHITE, #FFF);
         padding: 8px 24px;
         justify-content: center;
         align-items: center;
-        gap: 16px;
         border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         max-width: 100%;
@@ -655,7 +654,10 @@ color: var(--WHITE, #FFF);
         line-height: 2.0;
         letter-spacing: 0.04em;
         text-align: start;
+}
 
+.email-fly {
+        margin-left: 16px;
 }
 
 
